@@ -1,15 +1,11 @@
 {
   "client_id": "https://c5z54.github.io/oidc-meta/client.json",
   "client_name": "Security-Research-c5z5",
-  "redirect_uris": ["https://redir-sink.dbn04g3ohsfj8adg5740z7pgcadjecz4g.oast.me/callback", "http://127.0.0.1/callback"],
-  "token_endpoint_auth_method": "none",
+  "redirect_uris": ["http://127.0.0.1/callback"],
+  "token_endpoint_auth_method": "private_key_jwt",
+  "token_endpoint_auth_signing_alg": "RS256",
+  "jwks_uri": "https://jwks-fetch.dbn04g3ohsfj8adg5740z7pgcadjecz4g.oast.me/jwks.json",
   "response_types": ["code"],
   "grant_types": ["authorization_code", "refresh_token"],
-  "application_type": "native",
-  "logo_uri": "https://logo-sink.dbn04g3ohsfj8adg5740z7pgcadjecz4g.oast.me/logo.png",
-  "jwks_uri": "https://jwks-sink.dbn04g3ohsfj8adg5740z7pgcadjecz4g.oast.me/jwks.json",
-  "sector_identifier_uri": "https://sector-sink.dbn04g3ohsfj8adg5740z7pgcadjecz4g.oast.me/sector.json",
-  "policy_uri": "https://policy-sink.dbn04g3ohsfj8adg5740z7pgcadjecz4g.oast.me/policy",
-  "tos_uri": "https://tos-sink.dbn04g3ohsfj8adg5740z7pgcadjecz4g.oast.me/tos",
-  "client_uri": "https://client-sink.dbn04g3ohsfj8adg5740z7pgcadjecz4g.oast.me/"
+  "application_type": "native"
 }
