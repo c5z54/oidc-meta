@@ -1,6 +1,6 @@
 {
-  "client_id": "https://c5z54.github.io/oidc-meta/client.json",
-  "client_name": "Security-Research-c5z5",
+  "client_id": "https://cdn.jsdelivr.net/gh/c5z54/oidc-meta@main/client.json",
+  "client_name": "Security-Research-c5z5-jwt",
   "redirect_uris": ["http://127.0.0.1/callback"],
   "token_endpoint_auth_method": "private_key_jwt",
   "token_endpoint_auth_signing_alg": "RS256",
